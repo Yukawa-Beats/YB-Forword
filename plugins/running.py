@@ -63,11 +63,11 @@ async def run(bot, message):
             pass
    # await m.delete()
     buttons = [[
-        InlineKeyboardButton('📜 Support Group', url='https://t.me/mo_tech_YT')
+        InlineKeyboardButton('📜 Join Channel', url='https://t.me/ybdemochannel')
     ]] 
     reply_markup = InlineKeyboardMarkup(buttons)
     await m.edit(
-        text=f"<u><i>Successfully Forwarded</i></u>\n\n<b>Total Forwarded Files:-</b> <code>{files_count}</code> <b>Files</b>\n<b>Thanks For Using Me❤️</b>",
+        text=f"<u><i>Successfully Forwarded</i></u>\n\n<b>Total Forwarded Files:-</b> <code>{files_count}</code> <b>Files</b>\n\n<b>Thanks For Using Me❤️</b>\n\n<b>Credits Yukawa Beats</b>",
         reply_markup=reply_markup
     )
         
