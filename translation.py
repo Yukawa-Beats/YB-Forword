@@ -2,15 +2,17 @@ import os
 from config import Config
 
 class Translation(object):
-  START_TXT = """<b>Hai {}!!</b>
+  START_TXT = """<b>ഹായ്🙋🏻‍♂️ {}!!</b>
 
-<b>I'm Simple Auto file Forward Bot
+<b>ഞാൻ ഒരു ഓട്ടോ ഫയൽ ഫോർവേഡ് ബോട്ട് ആണ്..🥳
 
-This Bot forward all files to One Public channel to Your Personal channel
+എന്നെ ഉണ്ടാക്കിയത് @chekuthan_0405 ആണ്😎
 
-More details /help
+ഒരു പബ്ലിക് ചാനലിലെ ഫയല്സിനെ നിങ്ങളുടെ ചാനലിലേക്ക് ഓട്ടോമാറ്റിക് ആയി ഫോർവേഡ് ചെയ്യാൻ സാധിക്കും🤩
 
-© @Mo_Tech_YT</b>"""
+For More Details Hit 👉 /help
+
+Join This Channel 👉 @ybdemochannel</b>"""
   CAPTION = "`{}`\n\n" + str(Config.CAPTION)
   HELP_TXT = """<b>Follow These Steps!!</b>
 
@@ -35,7 +37,7 @@ More details /help
 
 <b>🤖Name :</b> <code>Auto Forward Bot</code>
 
-<b>👨‍🎓Credit :</b> <code>Dark Angel</code>
+<b>👨‍🎓Credit :</b> <code>Dark Angel And Yukawa Beats</code>
 
 <b>🎙️Language :</b> <code>Python3</code>
 
