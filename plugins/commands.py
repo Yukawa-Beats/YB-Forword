@@ -11,11 +11,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
-        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
-        InlineKeyboardButton('📃Bot List', url='https://t.me/Mo_Tech_YT/176'),
+        InlineKeyboardButton('🗣️Group', url='t.me/ybmoviesgroup'),
+        InlineKeyboardButton('📢Join Channel', url='t.me/ybdemochannel'),
+        InlineKeyboardButton('INSTAGRAM', url='https://instagram.com/yukawa_beats'),
     ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
+        InlineKeyboardButton('🖥️ YouTube 🖥️', url='https://youtube.com/channel/UCnI4WI9dFLez9GmMi54EyEA')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -28,11 +28,11 @@ async def start(client, message):
 @Client.on_message(filters.private & filters.command(['help']))
 async def help(client, message):
     buttons = [[
-        InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
-        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
+        InlineKeyboardButton('🗣️Group', url='t.me/ybmoviesgroup'),
+        InlineKeyboardButton('📢Join Channel', url='t.me/ybdemochannel'),
         InlineKeyboardButton('🔐Close', callback_data='close_btn')
         ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
+        InlineKeyboardButton('🖥️ YouTube 🖥️', url='https://youtube.com/channel/UCnI4WI9dFLez9GmMi54EyEA')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
@@ -44,11 +44,11 @@ async def help(client, message):
 @Client.on_message(filters.private & filters.command(['about']))
 async def about(client, message):
     buttons = [[
-        InlineKeyboardButton('🗣️Group', url='t.me/mo_tech_Group'),
-        InlineKeyboardButton('📢Updates', url='t.me/mo_tech_yt'),
+        InlineKeyboardButton('🗣️Group', url='t.me/ybmoviesgroup'),
+        InlineKeyboardButton('📢Join Channel', url='t.me/ybdemochannel'),
         InlineKeyboardButton('🔐Close', callback_data='close_btn')
         ],[
-        InlineKeyboardButton('🖥️ How To Own 🖥️', url='https://youtu.be/8kS8C9Tyvnc')
+        InlineKeyboardButton('🖥️ YouTube 🖥️', url='https://youtube.com/channel/UCnI4WI9dFLez9GmMi54EyEA')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_message(
