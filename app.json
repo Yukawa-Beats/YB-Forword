@@ -1,7 +1,7 @@
 {
   "name": "Auto-Forward-Bot",
   "description": "Telegram's Best Smart Plugin File Forward Bot",
-  "logo": "https://telegra.ph/file/8b8419bb855959c143875.jpg",
+  "logo": "https://telegra.ph/file/02edc63667bee3ecb44a2.jpg",
   "keywords": [
     "telegram",
     "best",
@@ -9,16 +9,16 @@
     "forward",
     "bot"
   ],
-  "success_url": "https://t.me/DForDarkAngel",
-  "website": "https://github.com/Jijinr/Frwdit",
-  "repository": "https://github.com/MRK-YT/MT-Forword",
+  "success_url": "https://t.me/ybdemochannel",
+  "website": "https://github.com/Yukawa-Beats/YB-Forward",
+  "repository": "https://github.com/MYukawa-Beats/YB-Forword",
   "env": {
     "API_ID": {
-      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+      "description": "Get this value from https://my.telegram.org ",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+      "description": "Get this value from https://my.telegram.org ",
       "value": ""
     },
     "BOT_TOKEN": {
@@ -26,11 +26,11 @@
       "value": ""
     },
     "TO_CHANNEL": {
-      "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx (@MT_ID_BOT)",
+      "description": "Enter Your channel Id must add Eg:- -100xxxxxxxxx ",
       "value": ""
     },
     "FROM_CHANNEL": {
-      "description": "enter Channel username Eg:- @Mo_Tech_YT",
+      "description": "enter Channel username Eg:- @ybdemochannel",
       "value": ""
     },
     "OWNER_ID": {
